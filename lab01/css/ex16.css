@@ -1,0 +1,14 @@
+h1, h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.question{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.break{
+    margin: 0 10px 10px 0px;
+}

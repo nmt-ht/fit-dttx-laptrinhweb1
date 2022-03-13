@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.product{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.product > .title{
+    color: blue;
+}
+.product > .price > i{
+    color: red;
+}

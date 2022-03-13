@@ -1,0 +1,27 @@
+h1{
+    background-color:#ffcffb;
+    text-align: center;
+    color: #ff1f97;
+}
+
+.poem {
+    background-color: #f5edb3;
+}
+
+.poem span{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.poem > .paragraph-1{
+    color: #441eee;
+}
+.poem > .paragraph-2{
+    color: #e4b211;
+}
+.poem > .paragraph-3{
+    color: #e219b7;
+}

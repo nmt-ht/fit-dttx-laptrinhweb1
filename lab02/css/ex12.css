@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box
+}
+
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.heading-title{
+    text-align: center;
+    color: #000;
+}
+.wrapper{
+    display: flex;
+}
+.left-content{
+    width: 50%;
+    text-align: center;
+}
+.google-form-box {
+    max-width: 410px;
+}
+
+.google-form {
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+.google-form-item {
+    margin-bottom: 15px;
+}
+
+.google-form-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.google-form-half {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+.google-form-half .google-form-input {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.google-form-input input {
+    width: 99%;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    outline: 0;
+}
+.google-form-input input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a7aeb4;
+  opacity: 1; /* Firefox */
+}
+
+.google-form-input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a7aeb4;
+}
+
+.google-form-input input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #a7aeb4;
+}
+.google-form-input {
+    position: relative;
+}
+
+.google-form-input span {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #a7aeb4;
+}
+.google-form-birthday {
+    display: flex;
+    margin: 0 -6px;
+}
+.google-form-birthday .google-form-input {
+    padding: 0 6px;
+}
+.google-form-input select {
+    width: 100%;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    height: 30px;
+    padding: 0 10px;
+    outline: 0;
+}
+.form-month {
+    flex: 1;
+}
+.form-day {
+    flex: 0 0 75px;
+}
+.form-year {
+    flex: 0 0 100px;
+}
+.button-form {
+    text-align: right;
+}
+
+.button-form button {
+    background: #4c8efb;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 2px;
+    font-size: 14px;
+    border: 1px solid #397ff1;
+    cursor: pointer;
+}
+
+.learn-more-box {
+    text-align: center;
+    margin-top: 10px;
+}
+* {
+    box-sizing: border-box;
+}
