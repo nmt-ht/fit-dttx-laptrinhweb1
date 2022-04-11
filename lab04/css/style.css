@@ -1,0 +1,240 @@
+/* CSS Document */
+body{
+    margin: 0;
+    font-family: tahamo, helvetica, arial, sans-serif;
+    font-size: 15px;
+    background-image: url(../img/page_bg.gif);
+}
+
+#wrapper{
+    width: 80%;
+    margin: 0px auto 10px;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    background: #FFF;
+    color: #000;
+    text-align: left;
+}
+
+#header{
+    background: url(../img/header_bg.gif) repeat-x;
+    padding-top: 9px;
+}
+
+#header #logo{
+    width: 30%;
+    height: 63px;
+    float: left;
+}
+
+
+#header #login{
+    width: calc(70% - 5px);
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#header img{
+    width: 100%;
+    clear: both;
+}
+
+#sidebar{
+    float: left;
+    width: 25%;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+    border-bottom: 2px solid #FFF;
+    background: #FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+#sidebar dl{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar dl dt{
+    background: #C80000 url(../img/dt_bg.gif) bottom repeat-x;
+    margin: 2px 2px 1px 2px;
+    padding: 6px 0px;
+    color: #FFF;
+    text-align: center;
+    font-weight: both;
+}
+
+#sidebar dl dd{
+    background: #227293;
+    border-bottom: 1px solid #659DB4;
+    margin:0px 2px;
+    padding: 0;
+}
+
+#sidebar dl dd a{
+    color: #FFF;
+    font-weight: bold;
+    padding: 3px 22px;
+    display: block;
+}
+
+#sidebar dl dd a:hover{
+    background: #74A7B7;
+}
+
+#content{
+    float: right;
+    width: calc(75% - 1px - 2px - 2px);
+    min-height: 50px;
+    margin:2px 1px 10px 0px;
+    border: 2px solid #E5E5E5;
+}
+
+#content h2{
+    font: bold 20px Arial;
+    color: #39F;
+    padding-left: 20px;
+}
+
+.product{
+    margin: 5px;
+    float: left;
+    width: calc(50% - 20px);
+    text-align: center;
+}
+
+.product:nth-child(even){
+    border-top: 5px solid rgb(156, 211, 165);
+    margin-right: 15px;
+}
+
+.product:nth-child(odd){
+    border-top: 5px solid rgb(119, 184, 219);
+    margin-right: 15px;
+}
+
+.product img{
+    width: 60%;
+    height: 230px;
+}
+
+.pname{
+    font: bold 20px arial;
+    color: #F39;
+    margin-top: 5px;
+}
+
+.pprice{
+    font: bold 17px arial;
+    color: red;
+}
+
+.paction{
+    font: italic bold 15px arial;
+    margin-bottom: 10px;
+    color: #F96;
+    text-align: right;
+}
+
+#product_details{
+    padding: 10px;
+    min-height: 220px;
+}
+
+#pleft{
+    float: left;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+#pright{
+    float: right;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+#pdescription{
+    clear: both;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#pright span{
+    display: block;
+    float: left;
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+#pright > div{
+    clear: both;
+}
+
+.label{
+    width: 100%;
+    text-align: right;
+    font-size: 17px;
+}
+
+.pdata{
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+}
+
+.pfactory{
+    font-size:17px;
+    font-weight: bold;
+    color: #3C6;
+}
+
+.shopping_cart{
+    text-align: center;
+}
+
+.shopping_cart img{
+    width: 50px;
+    height: 50px;
+}
+
+#shopping_cart{
+    text-align: center;
+}
+
+#shopping_cart h2{
+    color: #F63;
+    font-weight: bold;
+}
+
+#shopping_cart table{
+    border: 1px solid #369;
+    border-collapse: collapse;
+    width: calc(100% - 20px);
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+}
+
+#shopping_cart table tr th, #shopping_cart table tr td{
+    border: 1px solid #369;
+    margin: 0;
+    pad: 5px;
+    text-align: center;
+}
+
+#footer{
+    clear: both;
+    background: #C80000 url(../img/footer_bg.gif) repeat-x;
+    padding: 8px;
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
