@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21850024 - Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h2>Reister</h2>
+    <form name="frm-register" class="frm-register" method="post" action="action.html">
+        <div class="container">
+            <label for="uname"><b>User name:</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter user name')">
+
+            <label for="uemail"><b>Email:</b></label>
+            <input id="email" type="text" placeholder="Enter Email" name="uemail" required
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter a valid email address')"
+                pattern="[a-z0-9.%+0-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+
+            <label for="uemail"><b>Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required
+                oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Please enter password')">
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+            <button type="submit" onclick="SubmitValidation()">Register</button>
+        </div>
+    </form>
+    <script src="js/register.js"></script>
+</body>
+
+</html>

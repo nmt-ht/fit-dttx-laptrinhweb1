@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21850024 - Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h2>Login</h2>
+    <form class="modal-content" action="action.html" method="post" id="login">
+        <div class="container">
+            <label for="uname"><b>User name:</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter user name')">
+
+            <label for="psw"><b>Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter password')">
+            <button type="submit">Login</button>
+        </div>
+    </form>
+</body>
+
+</html>

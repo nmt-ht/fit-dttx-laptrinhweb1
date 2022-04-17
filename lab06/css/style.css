@@ -1,0 +1,66 @@
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #035397;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input:required:invalid,
+input:focus:invalid {
+  background-image: url('../images/invalid.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  align-items: center;
+  text-align: center;
+}
+
+input:required:valid {
+  background-image: url('../images/valid.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  border: 1px solid #C0EDA6;
+}
+
+#shopping-cart{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#shopping-cart table{
+  border: 1px solid #369;
+  border-collapse: collapse;
+  width: calc(100% - 20px);
+  padding: 0;
+  margin: 10px;
+  text-align: left;
+
+}
+
+#shopping-cart table tr th, #shopping-cart table tr td{
+  border: 1px solid #369;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+#shopping-cart button{
+  width: 100px;
+}

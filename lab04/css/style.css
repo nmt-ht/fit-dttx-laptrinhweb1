@@ -225,7 +225,7 @@ a{
 #shopping_cart table tr th, #shopping_cart table tr td{
     border: 1px solid #369;
     margin: 0;
-    pad: 5px;
+    padding: 5px;
     text-align: center;
 }
 

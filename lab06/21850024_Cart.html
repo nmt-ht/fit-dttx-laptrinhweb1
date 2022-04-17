@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21850024 - Cart</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h2>Cart information</h2>
+    <div id="shopping-cart">
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Tên sản phẩm</th>
+                <th>Hình</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tổng cộng</th>
+            </tr>
+            <form method="get" action="action.html">
+                <tr>
+                    <td>1</td>
+                    <td style="text-align: left;">Bill D. Beaver</td>
+                    <td>
+                        <img src="images/Lamaze_Bill_D_Beaver.jpeg" alt="" width="100px" height="100px">
+                    </td>
+                    <td>
+                        <input id="price" type="text" style="width: 30%;" value="16000" onchange="CalculatePrice()"></input>
+                    </td>
+                    <td>
+                        <input type="text" name="quantity" id="quantity" min="1" max="10" value="1"
+                            onchange="CalculatePrice()" style="width: 15%;" required/>
+                    </td>
+                    <td><label id="total-price"></label></td>
+                </tr>
+                <tr>
+                    <div>
+                        <button type="submit" onclick="Checkout()">Checkout</button>
+                    </div>
+                </tr>
+            </form>
+        </table>
+    </div>
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>

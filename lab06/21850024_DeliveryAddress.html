@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21850024 - Delivery Address</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h2>Delivery Address</h2>
+    <form name="frm-delivery" class="frm-delivery" method="post" action="action.html">
+        <div class="container">
+            <label for="uname"><b>Họ tên:</b></label>
+            <input type="text" placeholder="Họ tên" name="uname" required 
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Vui lòng nhập họ tên người nhận hàng.')">
+
+            <label for="address"><b>Địa chỉ:</b></label>
+            <input id="adress" type="text" placeholder="Địa chỉ" name="address" required
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Vui lòng nhập địa chỉ giao hàng.')">
+
+            <label for="uphone"><b>Số điện thoại:</b></label>
+            <input type="text" placeholder="Số điện thoại" name="phone" id="phone" required
+                oninput="this.setCustomValidity('')" 
+                oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại hợp lệ')" pattern="(84|0[3|5|7|8|9])+([0-9]{8})\b">
+
+            <button type="submit" onclick="Send()">Gửi</button>
+        </div>
+    </form>
+</body>
+</html>
